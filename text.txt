@@ -1,0 +1,3 @@
+glasmorphism
+animate on scroll
+other animations cards flipping?

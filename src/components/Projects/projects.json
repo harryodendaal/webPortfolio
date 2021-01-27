@@ -1,0 +1,44 @@
+[
+	{
+		"id": 1,
+		"header": "bookReview",
+		"description": "This was an app",
+		"img": "./img/bookReview.png",
+		"tags": ""
+	},
+	{
+		"id": 2,
+		"header": "eCommerce",
+		"description": "This was an app",
+		"img": "./img/eCommerce.png",
+		"tags": ""
+	},
+	{
+		"id": 3,
+		"header": "firstPwa",
+		"description": "This was an app",
+		"img": "./img/firstPwa.png",
+		"tags": ""
+	},
+	{
+		"id": 4,
+		"header": "mernSocialSite",
+		"description": "This was an app",
+		"img": "./img/mernSocialSite.png",
+		"tags": ""
+	},
+	{
+		"id": 5,
+		"header": "sassElephant",
+		"description": "This was an app",
+		"img": "./img/sassElephant.png",
+		"tags": ""
+	},
+	{
+		"id": 6,
+		"header": "secretchatapp",
+		"description": "This was an app",
+		"img": "./img/secretchatapp.png",
+		"tags": ""
+	}
+]
