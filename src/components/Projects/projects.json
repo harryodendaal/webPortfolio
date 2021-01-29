@@ -1,44 +1,32 @@
 [
 	{
-		"id": 1,
+		"id": "one",
 		"header": "bookReview",
-		"description": "This was an app",
+		"description_general": "Blog where you can sign in and create posts, you can also delete or update your post. You can also like and or dislike other peoples post.",
+		"description_technical": "express server with graphql endpoint using apollo. redis used for storing cookies typeorm for the orm. The fronend uses next.js as the react framework and uses a urlq client to connect to the graphql endpoint. The project uses typescript",
+		"tags": "react, all#69420",
 		"img": "./img/bookReview.png",
-		"tags": ""
+		"githublink": "https://github.com/harryodendaal/bookReview",
+		"demolink": ""
 	},
 	{
-		"id": 2,
-		"header": "eCommerce",
-		"description": "This was an app",
-		"img": "./img/eCommerce.png",
-		"tags": ""
-	},
-	{
-		"id": 3,
-		"header": "firstPwa",
-		"description": "This was an app",
-		"img": "./img/firstPwa.png",
-		"tags": ""
-	},
-	{
-		"id": 4,
+		"id": "two",
 		"header": "mernSocialSite",
-		"description": "This was an app",
+		"description_general": "Blog where you can make post images and like other peoples images",
+		"description_technical": "MERN stack. Uses google and json web tokens (jwt) for authentication for some reason the google authentication is not working in deployment.",
+		"tags": "react, all#69420",
 		"img": "./img/mernSocialSite.png",
-		"tags": ""
+		"githublink": "https://github.com/harryodendaal/mernSocialSite",
+		"demolink": "https://fervent-golick-2a6d6b.netlify.app/"
 	},
 	{
-		"id": 5,
+		"id": "three",
 		"header": "sassElephant",
-		"description": "This was an app",
+		"description_general": "a Site to give some info about elephants directly from wikipedia :D",
+		"description_technical": "this site is made using sass, html and a bit of js. It is fully responsive",
+		"tags": "all#69420",
 		"img": "./img/sassElephant.png",
-		"tags": ""
-	},
-	{
-		"id": 6,
-		"header": "secretchatapp",
-		"description": "This was an app",
-		"img": "./img/secretchatapp.png",
-		"tags": ""
+		"githublink": "https://github.com/harryodendaal/elephantSass",
+		"demolink": "https://harryodendaal.github.io/elephantSass/dist/"
 	}
 ]

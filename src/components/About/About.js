@@ -13,11 +13,8 @@ const About = () => {
           <h1 className="section-title">About <span>me</span></h1>
           <h2>FullStack Developer</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas
-            at cupiditate voluptatem nihil debitis doloribus libero porro est ab
-            alias! Architecto ipsa expedita laudantium sequi vero beatae quam
-            mollitia asperiores.
-        </p>
+            twenty year old financially dependant student frantically searching for a opportunity to prove that I have useful skills. Also need a job so that I can afford rent for my apartment I promise you I will not dissappoint just give me a chance. ☮️
+          </p>
           <a href="#home" className="cta">Download Resume</a>
         </div>
       </div>

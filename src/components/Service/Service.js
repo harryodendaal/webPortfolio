@@ -29,7 +29,7 @@ const Service = () => {
             <ul>
               <li>NodeJs</li>
               <li>Express</li>
-              <li>Python</li>
+              <li>Python (django) (flask) (fastapi)</li>
             </ul>
           </div>
           <div className="service-item">
@@ -51,10 +51,10 @@ const Service = () => {
             </div>
             <h2>Deployment</h2>
             <ul>
-              <li>Git</li>
+              <li>Git / GitHub</li>
               <li>Docker</li>
-              <li>nginx?</li>
-              <li>aws?</li>
+              <li>Heroku</li>
+              <li>Netlify</li>
             </ul>
           </div>
         </div>
