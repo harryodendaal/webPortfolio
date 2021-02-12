@@ -2,11 +2,14 @@ import React, { useState, useEffect } from 'react'
 import './project.css'
 import './search.css'
 import projects from './projects.json'
-import { IoLogoGithub, IoEyeOutline } from 'react-icons/io5'
+
 
 import Fuse from 'fuse.js'
+import ProjectItem from './ProjectItem/ProjectItem'
 
 const Projects = () => {
+
+
   const [query, updateQuery] = useState("")
   const fuse = new Fuse(projects, {
     keys: [
@@ -53,39 +56,9 @@ const Projects = () => {
       <div id='projects'>
         <div className='projects-container'>
 
-          {projectResults.map(project => (
-            <div class="card">
-              <div class={"card__inner "} >
-                <div class="card__face card__face--front">
-                  <img src={project.img} alt="" class="pp" />
-                </div>
-
-                <div class="card__face card__face--back">
-                  <div class="card__content">
-                    <div class="card__header">
-                      <h2>
-                        {project.header}
-                      </h2>
-                    </div>
-                    <div class="card__body">
-                      <h3>General: </h3>
-                      <p className='general'>
-                        {project.description_general}
-                      </p>
-                      <h3>Technical:</h3>
-                      <p className='technical'>
-                        {project.description_technical}
-                      </p>
-                    </div>
-                    <div className='links'>
-                      <a target='_blank' rel="noreferrer" href={project.githublink}> <IoLogoGithub className='icon' /></a>
-                      {project.header !== 'bookReview' ? <a target='_blank' rel="noreferrer" href={project.demolink}><IoEyeOutline className='icon' /></a> : null}
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
+          {projectResults.map(project =>
+            <ProjectItem project={project} />
+          )}
         </div>
       </div>
     </>

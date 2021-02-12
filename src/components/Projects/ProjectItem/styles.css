@@ -1,31 +1,5 @@
-:root {
-	--primary: #4568dc;
-	--secondary: #b06ab3;
-	--dark: #212121;
-	--light: #f3f3f3;
-}
-
-* {
-	margin: 0;
-	padding: 0;
-}
-
-body {
-	font-family: sans-serif;
-	width: 100%;
-	min-height: 100vh;
-}
-
-#projects .projects-container {
-	flex-direction: column;
-	text-align: center;
-	max-width: 1500px;
-	margin: 0 auto;
-	padding: 1px 0;
-}
-
 .card {
-	margin: 100px auto 0;
+	margin: 100px auto 0; /*100 top center 0 bottom*/
 	width: 400px;
 	height: 500px;
 	perspective: 1000px;
@@ -130,18 +104,4 @@ body {
 	color: var(--dark);
 	font-size: 18px;
 	line-height: 1.5;
-}
-
-@media only screen and (min-width: 900px) {
-	.projects-container {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-		/* flex-direction: row; */
-	}
-}
-@media only screen and (min-width: 1200px) {
-	.projects-container {
-		display: grid;
-		grid-template-columns: repeat(3, 1fr);
-	}
 }
